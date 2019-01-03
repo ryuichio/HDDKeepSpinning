@@ -35,4 +35,4 @@ Run `uninstall.bat` with administrative privileges
 
 |Date|Ver.|Description|
 |----|----|-----------|
-|2019 Jan 3|v.0.0.1|First release|
+|2019 Jan 3|v.0.1.0|First release|
