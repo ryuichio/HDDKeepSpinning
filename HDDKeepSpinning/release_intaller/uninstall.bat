@@ -1,6 +1,7 @@
 @echo off
 openfiles > NUL 2>&1
 if NOT %ERRORLEVEL% EQU 0 goto NotAdmin
+net stop HDDKeepSpinning
 %windir%\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /u HDDKeepSpinning.exe
 goto End
 :NotAdmin 
